@@ -35,3 +35,51 @@ a {
   text-decoration: none;
   color: white;
 }
+.header {
+  display: grid;
+  grid-template-rows: 1.5fr 2fr;
+  font-weight: 500;
+  padding: 2vh 3vw;
+}
+.topHeader {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 10vw;
+}
+input {
+  width: 100%;
+  border: none;
+  background-color: #e0f2fe;
+  height: 2rem;
+  border-radius: 18px;
+}
+.smallProfileName {
+  font-size: 1.5rem;
+}
+.magGlass {
+  background-color: black;
+  height: 2rem;
+  width: 2rem;
+}
+.searchBar {
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 1.5rem;
+}
+.bell {
+  background-color: black;
+  height: 2rem;
+  width: 2rem;
+}
+.smallProfilePic {
+  background-color: black;
+  height: 3rem;
+  width: 3rem;
+}
+.profileInfo {
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  align-items: center;
+  gap: 2rem;
+}
