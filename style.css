@@ -19,7 +19,7 @@ body {
 .mainContent {
   background-color: #e0f2fe;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2.5fr 1fr;
   grid-template-rows: 1fr 1fr;
   box-shadow: inset rgb(0 0 0 / 15%) 0px 1.95px 2.6px;
 }
@@ -170,7 +170,8 @@ input {
   width: 1rem;
   background-color: black;
 }
-.annoucmentsTab {
+.annoucmentsTab,
+.trendingTab {
   background-color: white;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
@@ -190,4 +191,30 @@ input {
 .annoucmentContent {
   font-size: 0.7rem;
   color: rgba(91, 91, 91, 0.748);
+}
+.trending {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+.trendingTab {
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.trendingTopic {
+  color: rgba(91, 91, 91, 0.748);
+  font-size: 0.8rem;
+}
+.trendingNickname {
+  font-size: 0.8rem;
+}
+.trendingLogo {
+  height: 2rem;
+  width: 2rem;
+  background-color: black;
+  grid-area: 1/1/-1/2;
+}
+.trendingTab > div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
 }
