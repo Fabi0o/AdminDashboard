@@ -126,6 +126,8 @@ input {
 }
 .yourProjects {
   grid-area: 1/1/3/2;
+  display: grid;
+  grid-template-rows: auto 1fr;
 }
 .title {
   font-size: 1.5rem;
@@ -137,7 +139,6 @@ input {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 20px;
   margin-left: 1rem;
-  padding-bottom: 5vh;
 }
 .projects > div {
   background-color: white;
@@ -155,6 +156,7 @@ input {
 }
 .projectDescription {
   font-size: 0.9rem;
+  color: rgba(91, 91, 91, 0.748);
 }
 .projectIcons {
   display: grid;
@@ -167,4 +169,25 @@ input {
   height: 1rem;
   width: 1rem;
   background-color: black;
+}
+.annoucmentsTab {
+  background-color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 0 1.5rem 0 1rem;
+  border-radius: 8px;
+  padding: 2rem;
+  gap: 0.5rem;
+}
+.annoucment1,
+.annoucment2 {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.386);
+}
+.annoucmentTitle {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.annoucmentContent {
+  font-size: 0.7rem;
+  color: rgba(91, 91, 91, 0.748);
 }
