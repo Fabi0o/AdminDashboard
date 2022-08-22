@@ -30,6 +30,10 @@ ul {
 }
 .logo {
   font-size: 2rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  align-items: center;
 }
 li {
   font-size: 1.5rem;
@@ -38,6 +42,10 @@ li {
 a {
   text-decoration: none;
   color: white;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  align-items: center;
 }
 .header {
   display: grid;
@@ -217,4 +225,10 @@ input {
   grid-template-columns: auto 1fr;
   grid-template-rows: 1fr 1fr;
   align-items: center;
+}
+.logo > img {
+  height: 3rem;
+}
+a > img {
+  height: 1.5rem;
 }
