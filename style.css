@@ -22,6 +22,7 @@ body {
   grid-template-columns: 2.5fr 1fr;
   grid-template-rows: 1fr 1fr;
   box-shadow: inset rgb(0 0 0 / 15%) 0px 1.95px 2.6px;
+  padding-bottom: 5vh;
 }
 ul {
   list-style: none;
@@ -71,7 +72,6 @@ input {
   font-size: 1.5rem;
 }
 .magGlass {
-  background-color: black;
   height: 2rem;
   width: 2rem;
 }
@@ -81,7 +81,6 @@ input {
   gap: 1.5rem;
 }
 .bell {
-  background-color: black;
   height: 2rem;
   width: 2rem;
 }
@@ -155,7 +154,7 @@ input {
   border-left: 8px solid #fbbf24;
   display: grid;
   grid-template-rows: 1fr 7fr 1fr;
-  padding: 1rem;
+  padding: 2rem;
 }
 .projects > div > .title {
   font-size: 1rem;
@@ -171,12 +170,11 @@ input {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: end;
   align-content: center;
-  padding-left: 75%;
+  padding-left: 50%;
 }
 .projectIcons > div {
-  height: 1rem;
-  width: 1rem;
-  background-color: black;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 .annoucmentsTab,
 .trendingTab {
